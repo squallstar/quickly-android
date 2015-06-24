@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="0dp"
+    android:background="@color/notification_background"
+    android:orientation="vertical"
+    tools:context="com.squallstar.quickly.TextActivity">
+
+    <EditText
+        style="@style/AppTheme.EditText"
+        android:id="@+id/txtShare"
+        android:text=""
+        android:singleLine="false"
+        android:maxLines="10"
+        android:inputType="textMultiLine|textAutoCorrect"
+        android:hint="@string/text_hint"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#44000000"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_share"
+        android:layout_gravity="end"
+        android:background="#00000000"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
