@@ -9,4 +9,6 @@
     <string name="btn_share">Share</string>
     <string name="share_title_note"></string>
     <string name="tutorial_text">Quickly has been installed on your system. You can now use the persistent notification on your top bar to write and share a quick note to your apps.</string>
+    <string name="title_activity_chooser">ChooserActivity</string>
+    <string name="share_to">SHARE TO</string>
 </resources>
