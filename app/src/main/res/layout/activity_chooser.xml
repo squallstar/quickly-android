@@ -3,6 +3,7 @@
     android:layout_height="fill_parent"
     android:background="#FFFFFF"
     android:layout_marginTop="50dp"
+    android:layout_marginBottom="50dp"
     android:orientation="vertical">
 
     <TextView
@@ -18,7 +19,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#44000000"></View>
+        android:background="#44000000" />
 
     <ListView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
@@ -33,5 +34,15 @@
         android:divider="@null"
         android:drawSelectorOnTop="true"
         />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#44000000" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/notification_background" />
 
 </LinearLayout>
