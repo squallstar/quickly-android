@@ -59,17 +59,18 @@ public class TextActivity extends ActionBarActivity {
                 share.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.share_title_note));
                 share.putExtra(Intent.EXTRA_TEXT, text);
 
-                final Dialog dialog = new Dialog(TextActivity.this);
+                final Dialog dialog = new Dialog(TextActivity.this, R.style.DialogSlideAnim);
                 dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
                 WindowManager.LayoutParams WMLP = dialog.getWindow().getAttributes();
-                WMLP.gravity = Gravity.CENTER;
+                WMLP.gravity = Gravity.BOTTOM;
+
                 dialog.getWindow().setAttributes(WMLP);
                 dialog.getWindow().setBackgroundDrawable(
                         new ColorDrawable(android.graphics.Color.TRANSPARENT));
                 dialog.setCanceledOnTouchOutside(true);
                 dialog.setContentView(R.layout.activity_chooser);
 
-                PackageManager pm =getPackageManager();
+                PackageManager pm = getPackageManager();
                 List<ResolveInfo> appsList = pm.queryIntentActivities(share, 0);
                 Collections.sort(appsList, new ResolveInfo.DisplayNameComparator(pm));
 

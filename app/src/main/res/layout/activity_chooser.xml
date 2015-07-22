@@ -2,21 +2,23 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#FFFFFF"
+    android:layout_marginTop="50dp"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        android:text="Share to"
-        android:textSize="20sp"
-        android:padding="10dp"/>
+        android:textColor="#FFFFFF"
+        android:text="@string/share_to"
+        android:background="@color/notification_background"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:padding="15dp"/>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#AAAAAA"></View>
+        android:background="#44000000"></View>
 
     <ListView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
