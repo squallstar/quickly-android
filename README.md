@@ -5,7 +5,7 @@ Quickly is a persistent notification on your phone that triggers a dialog box to
 It doesn't require you to quit the app you're looking at, and you can easily get back to what you were doing once finished to share.
 
 APK direct-download link:
-http://bit.ly/1Cu8dgU
+http://bit.ly/1jtnOu4
 
 Play Store link:
 https://play.google.com/store/apps/details?id=com.squallstar.quickly
