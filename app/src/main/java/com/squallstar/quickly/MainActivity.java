@@ -16,6 +16,8 @@ public class MainActivity extends ActionBarActivity {
 
         int mNotificationId = 001;
 
+        Bundle extras = getIntent().getExtras();
+
         NotificationCompat.Builder mBuilder =
                 new NotificationCompat.Builder(this)
                         .setSmallIcon(R.drawable.abc_btn_radio_material)
@@ -42,5 +44,9 @@ public class MainActivity extends ActionBarActivity {
 
         mNotificationManager.cancel(mNotificationId);
         mNotificationManager.notify(mNotificationId, mBuilder.build());
+
+        if (extras != null && extras.containsKey("hide")) {
+            finish();
+        }
     }
 }
