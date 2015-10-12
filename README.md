@@ -11,3 +11,11 @@ Play Store link:
 https://play.google.com/store/apps/details?id=com.squallstar.quickly
 
 ![Image](https://raw.githubusercontent.com/squallstar/quickly-android/master/app/src/main/res/drawable/how_to.png)
+
+##License
+
+```
+"THE BEER-WARE LICENSE" (Revision 42):
+You can do whatever you want with this stuff.
+If we meet some day, and you think this stuff is worth it, you can buy me a beer in return.
+```
